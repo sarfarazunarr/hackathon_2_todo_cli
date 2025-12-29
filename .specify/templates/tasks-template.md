@@ -18,9 +18,7 @@ description: "Task list template for feature implementation"
 - **[Story]**: Which user story this task belongs to (e.g., US1, US2, US3)
 - Include exact file paths in descriptions
 
-## Path Conventions
-
-- **Single project**: `src/`, `tests/` at repository root
+- **Single project**: `src/todo_app/`, `tests/` at repository root
 - **Web app**: `backend/src/`, `frontend/src/`
 - **Mobile**: `api/src/`, `ios/src/` or `android/src/`
 - Paths shown below assume single project - adjust based on plan.md structure
@@ -88,10 +86,10 @@ Examples of foundational tasks (adjust based on your project):
 
 ### Implementation for User Story 1
 
-- [ ] T012 [P] [US1] Create [Entity1] model in src/models/[entity1].py
-- [ ] T013 [P] [US1] Create [Entity2] model in src/models/[entity2].py
-- [ ] T014 [US1] Implement [Service] in src/services/[service].py (depends on T012, T013)
-- [ ] T015 [US1] Implement [endpoint/feature] in src/[location]/[file].py
+- [ ] T012 [P] [US1] Create [Entity1] model in src/todo_app/models.py
+- [ ] T013 [P] [US1] Create [Entity2] model in src/todo_app/models.py
+- [ ] T014 [US1] Implement [Service] in src/todo_app/services.py (depends on T012, T013)
+- [ ] T015 [US1] Implement [endpoint/feature] in src/todo_app/main.py
 - [ ] T016 [US1] Add validation and error handling
 - [ ] T017 [US1] Add logging for user story 1 operations
 
@@ -112,9 +110,9 @@ Examples of foundational tasks (adjust based on your project):
 
 ### Implementation for User Story 2
 
-- [ ] T020 [P] [US2] Create [Entity] model in src/models/[entity].py
-- [ ] T021 [US2] Implement [Service] in src/services/[service].py
-- [ ] T022 [US2] Implement [endpoint/feature] in src/[location]/[file].py
+- [ ] T020 [P] [US2] Create [Entity] model in src/todo_app/models.py
+- [ ] T021 [US2] Implement [Service] in src/todo_app/services.py
+- [ ] T022 [US2] Implement [endpoint/feature] in src/todo_app/main.py
 - [ ] T023 [US2] Integrate with User Story 1 components (if needed)
 
 **Checkpoint**: At this point, User Stories 1 AND 2 should both work independently
@@ -134,9 +132,9 @@ Examples of foundational tasks (adjust based on your project):
 
 ### Implementation for User Story 3
 
-- [ ] T026 [P] [US3] Create [Entity] model in src/models/[entity].py
-- [ ] T027 [US3] Implement [Service] in src/services/[service].py
-- [ ] T028 [US3] Implement [endpoint/feature] in src/[location]/[file].py
+- [ ] T026 [P] [US3] Create [Entity] model in src/todo_app/models.py
+- [ ] T027 [US3] Implement [Service] in src/todo_app/services.py
+- [ ] T028 [US3] Implement [endpoint/feature] in src/todo_app/main.py
 
 **Checkpoint**: All user stories should now be independently functional
 
